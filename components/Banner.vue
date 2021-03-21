@@ -9,7 +9,7 @@
         <div class="flex items-center">
           <label for="search" class="flex items-center border pr-2 rounded-lg">
             <input type="text"
-                   class="py-1 px-3 focus:border-none"
+                   class="py-1 px-3 focus:border-none w-40 lg:w-45"
                    placeholder="Search..."
                    id="search">
             <svg class="h-6 w-6 text-gray-300"

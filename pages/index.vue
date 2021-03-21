@@ -1,11 +1,11 @@
 <template>
   <div class="container shadow-lg m-auto mb-4">
     <Sideshow/>
-    <div class="grid grid-cols-12">
+    <div class="grid grid-cols-1 sm:grid-cols-12">
       <div class="col-span-8 p-4">
         <Box title="វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា">
           <div class="w-full p-2">
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-1 sm:grid-cols-2">
               <template v-for="(blog, key) in blogs">
                 <BlogItem :blog="blog" :key="key"/>
               </template>
@@ -18,7 +18,7 @@
             <a href="" class="text-xs">[View All]</a>
           </template>
           <div class="w-full p-2">
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-1 sm:grid-cols-2">
               <template v-for="(event, key) in events">
                 <BlogItem :blog="event" :key="key"/>
               </template>
@@ -45,7 +45,7 @@
     </div>
 
     <div class="mt-4 p-4">
-      <div class="grid grid-cols-4 gap-2">
+      <div class="grid grid-cols-1 sm:grid-cols-4 sm:gap-2">
         <Box title="ផ្នែកសិក្សា" bg-color="#0a86ca">
           <template slot="tools">
             <a href="" class="text-xs">[View All]</a>

@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-3 py-2 p-2 bg-gray-100">
-    <div class="border h-32 overflow-hidden">
-      <img :src="image" class="object-cover"/>
+    <div class="border h-45 lg:h-32 overflow-hidden">
+      <img :src="image" class="object-cover w-full"/>
     </div>
     <h3 class="text-sm font-bold uppercase">
       <a href="#">{{ blog.title }}</a>

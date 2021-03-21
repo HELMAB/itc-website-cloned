@@ -1,12 +1,12 @@
 <template>
-  <div class="navbar shadow-md mb-4">
+  <div class="navbar shadow-md lg:mb-4">
     <div class="container m-auto py-2">
-      <div class="flex justify-between items-center">
-        <div class="flex items-center space-x-2">
-          <img src="/img/logo.png"/>
-          <img src="/img/logo.gif"/>
+      <div class="w-full lg:flex lg:justify-between lg:items-center">
+        <div class="flex items-center justify-center lg:justify-start space-x-2">
+          <img src="/img/logo.png" class="h-12 lg:h-auto"/>
+          <img src="/img/logo.gif" class="w-32 lg:w-full"/>
         </div>
-        <div>
+        <div class="hidden lg:block">
           <div>
             <ul class="flex items-center space-x-6">
               <li class="bg-itccolor py-1 px-2 rounded text-white"><a href="" class="font-display">ទំព័រដើម</a></li>

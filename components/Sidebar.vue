@@ -3,7 +3,7 @@
     <Box title="Latest">
       <div class="grid grid-cols-12 p-2 mb-2"
            v-for="item in 5">
-        <div class="col-span-4 h-24 w-full">
+        <div class="col-span-4 h-24 w-full overflow-hidden">
           <img :src="image" class="object-contain" alt=""/>
         </div>
         <div class="col-span-8 space-y-2 pl-2">

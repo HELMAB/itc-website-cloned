@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-itccolor grid grid-cols-12">
-    <div class="col-span-8">
+  <div class="bg-itccolor grid grid-cols-1 sm:grid-cols-12">
+    <div class="col-span-12 lg:col-span-8">
       <div class="w-full relative">
-        <img src="/img/sideshow/01.png" class="w-full" alt="slideshow"/>
+        <img src="/img/sideshow/01.png" class="h-3/4 sm:h-4/5 lg:h-auto w-full" alt="slideshow"/>
         <div class="absolute -bottom-0 bg-gray-900 w-full p-4 text-white">
           <h3>ឯកឧត្តមបណ្ឌិត ហង់ ជួន ណារ៉ុន អញ្ជើញក្នុងពិធីទិវាគ្រូបង្រៀន</h3>
           <p class="text-gray-500">ទិវាគ្រូបង្រៀននៅវិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា</p>
@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="col-span-4">
+    <div class="col-span-4 hidden lg:block">
       <div class="w-full">
         <a href="">
           <div class="grid grid-cols-12 p-2"

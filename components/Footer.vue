@@ -1,8 +1,8 @@
 <template>
   <div class="bg-itccolor text-white">
     <div class="container shadow-sm m-auto">
-      <div class="grid grid-cols-5 py-8">
-        <div>
+      <div class="grid grid-cols-2 p-4 sm:grid sm:grid-cols-5 py-8">
+        <div class="mb-2">
           <h3 class="font-bold font-display">ដេប៉ាតឺម៉ង់</h3>
           <ul class="space-y-1">
             <li
@@ -15,7 +15,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="mb-2">
           <h3 class="font-bold font-display">ទំព័រដើម</h3>
           <ul class="space-y-1">
             <li
@@ -28,7 +28,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="mb-2">
           <h3 class="font-bold font-display">សមាគមអតីតនិសិ្សត</h3>
           <ul class="space-y-1">
             <li
@@ -41,7 +41,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="mb-2">
           <h3 class="font-bold font-display">មជ្ឈមណ្ឌលនិងផ្នែកភាសា</h3>
           <ul class="space-y-1">
             <li
@@ -54,7 +54,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="mb-2">
           <h3 class="font-bold font-display">ទំនាក់ទំនង</h3>
           <ul class="space-y-1">
             <li
