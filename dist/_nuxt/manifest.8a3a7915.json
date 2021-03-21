@@ -1,7 +1,7 @@
 {
   "name": "itc-website",
   "short_name": "itc-website",
-  "description": "## Build Setup",
+  "description": "![itc-website-cloned](./static/itc-website.png) ## Build Setup",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.5f6a36.png",

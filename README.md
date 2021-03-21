@@ -1,5 +1,5 @@
 # [itc-website](https://itc-website-cloned.helmab.info)
-![itc-website-cloned](./itc-website.png)
+![itc-website-cloned](./static/itc-website.png)
 ## Build Setup
 
 ```bash

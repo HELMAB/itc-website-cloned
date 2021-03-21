@@ -77,6 +77,61 @@ import {mapGetters} from "vuex";
 
 export default {
   name: "Home",
+  head() {
+    return {
+      title: 'Home',
+      titleTemplate: '%s | ITC',
+      meta: [
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា គឺជាគ្រឹះស្ថានឧត្តមសិក្សានៅកម្ពុជាដែលបណ្តុះបណ្តាលវិស្វករបច្ចេកទេស។'
+        },
+        {hid: 'twitter:site', name: 'twitter:site', content: '@itckh'},
+        {hid: 'twitter:creator', name: 'twitter:creator', content: '@itckh'},
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា គឺជាគ្រឹះស្ថានឧត្តមសិក្សានៅកម្ពុជាដែលបណ្តុះបណ្តាលវិស្វករបច្ចេកទេស។'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: "វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជាបង្កើតឡើងនៅឆ្នាំ១៩៦៤ មានឈ្មោះថា វិទ្យាស្ថានបច្ចេកទេសជាន់ខ្ពស់មិត្តភាពកម្ពុជាសូវៀត (Institut Technique Supérieur de l’Amitié Khméro-Soviétique: ITSAKS) ។ វិទ្យាស្ថាននេះត្រូវបានផ្ដល់ជំនួយពីសហភាពសូវៀតរហូតដល់ឆ្នាំ ១៩៧៥ និងពី ១៩៨០ ដល់ ១៩៩១ ។ នៅឆ្នាំ ១៩៩១ សូវៀតបានបញ្ចប់ជំនួយទាំងស្រុងភ្លាមៗដល់វិទ្យាស្ថាន ។ នៅឆ្នាំ១៩៩៣ រដ្ឋាភិបាលកម្ពុជានិងរដ្ឋាភិបាលបារាំងបានចុះកិច្ចព្រមព្រៀងគ្នាដើម្បី អភិវឌ្ឍវិទ្យាស្ថានបន្ត ដោយប្តូរឈ្មោះមកជាវិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា ជាភាសាបារាំង (Institut de Technologie du Cambodge: ITC) ។"
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: '/itc-website.png'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: "វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជាបង្កើតឡើងនៅឆ្នាំ១៩៦៤ មានឈ្មោះថា វិទ្យាស្ថានបច្ចេកទេសជាន់ខ្ពស់មិត្តភាពកម្ពុជាសូវៀត (Institut Technique Supérieur de l’Amitié Khméro-Soviétique: ITSAKS) ។ វិទ្យាស្ថាននេះត្រូវបានផ្ដល់ជំនួយពីសហភាពសូវៀតរហូតដល់ឆ្នាំ ១៩៧៥ និងពី ១៩៨០ ដល់ ១៩៩១ ។ នៅឆ្នាំ ១៩៩១ សូវៀតបានបញ្ចប់ជំនួយទាំងស្រុងភ្លាមៗដល់វិទ្យាស្ថាន ។ នៅឆ្នាំ១៩៩៣ រដ្ឋាភិបាលកម្ពុជានិងរដ្ឋាភិបាលបារាំងបានចុះកិច្ចព្រមព្រៀងគ្នាដើម្បី អភិវឌ្ឍវិទ្យាស្ថានបន្ត ដោយប្តូរឈ្មោះមកជាវិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា ជាភាសាបារាំង (Institut de Technologie du Cambodge: ITC) ។"
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: '/itc-website.png'
+        },
+        {
+          hid: 'og:site_name',
+          name: 'og:site_name',
+          content: 'វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា គឺជាគ្រឹះស្ថានឧត្តមសិក្សានៅកម្ពុជាដែលបណ្តុះបណ្តាលវិស្វករបច្ចេកទេស។'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: "វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជាបង្កើតឡើងនៅឆ្នាំ១៩៦៤ មានឈ្មោះថា វិទ្យាស្ថានបច្ចេកទេសជាន់ខ្ពស់មិត្តភាពកម្ពុជាសូវៀត (Institut Technique Supérieur de l’Amitié Khméro-Soviétique: ITSAKS) ។ វិទ្យាស្ថាននេះត្រូវបានផ្ដល់ជំនួយពីសហភាពសូវៀតរហូតដល់ឆ្នាំ ១៩៧៥ និងពី ១៩៨០ ដល់ ១៩៩១ ។ នៅឆ្នាំ ១៩៩១ សូវៀតបានបញ្ចប់ជំនួយទាំងស្រុងភ្លាមៗដល់វិទ្យាស្ថាន ។ នៅឆ្នាំ១៩៩៣ រដ្ឋាភិបាលកម្ពុជានិងរដ្ឋាភិបាលបារាំងបានចុះកិច្ចព្រមព្រៀងគ្នាដើម្បី អភិវឌ្ឍវិទ្យាស្ថានបន្ត ដោយប្តូរឈ្មោះមកជាវិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា ជាភាសាបារាំង (Institut de Technologie du Cambodge: ITC) ។"
+        }
+      ]
+    }
+  },
   computed: {
     ...mapGetters("ui", {
       blogs: "getBlogs",
